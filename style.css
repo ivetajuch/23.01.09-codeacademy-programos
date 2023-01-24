@@ -1,0 +1,212 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.main-page {
+    width: 100%;
+}
+
+.pink-color {
+    color: magenta;
+}
+
+.test-button {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+    background-color: white;
+    background-image: url("MicrosoftTeams-image (2).png");
+background-size: 30%;
+background-repeat: no-repeat;
+background-position: 80% 85%;
+
+}
+
+
+h1 {
+    font-size: 72px;
+    margin: 40px 0px 32px;
+}
+.main-page {
+    position: relative;
+}
+.turinys {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    column-gap: 30px;
+}
+.filter-wrapper {
+ background-color: white;
+    width: calc(100% / 3);
+    padding: 45px 40px 40px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+.programme-wrapper {
+    width: calc(100% / 3 * 2);
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+ 
+  }
+
+.it-test img {
+    width: 100%;
+}
+
+.theme-wrapper,
+.location-wrapper,
+.type-wrapper,
+.time-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.filter-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.options {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 13px 35px 11px 20px;
+    min-width: 170px;
+    border-radius: 20px;
+   
+}
+
+fieldset {
+    border: none;
+}
+
+button.clear {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    width: 97px;
+    height: 97px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.course {
+    width: 50%;
+ padding: 0px 15px;
+ 
+    position: relative;
+    align-items: stretch;
+    display: flex;
+}
+
+.programme {
+    position: relative;
+    background-color: white;
+    padding: 40px 40px 25px;
+
+}
+
+.status {
+    background-color: magenta;
+    padding: 12px 17px 11px;
+    position: absolute;
+    top: 20px;
+    border-radius: 20px;
+    right: -15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.status .short{
+    background-color: magenta;
+    padding: 12px 17px 11px;
+    right: 0;
+    position: absolute;
+  
+  
+}
+
+.status .long {
+    position: absolute;
+    left: 84%;
+    top: 12px;
+    white-space: nowrap;
+}
+
+
+.main-info {
+    margin-bottom: 50px;
+} 
+
+h3.programme-title {
+    font-size: 24px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.additional-info {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+ 
+ 
+}
+
+.icon-moon,
+.icon-cap {
+    display: flex;
+    margin: 0 18px 10px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+
+}
+
+.icon-moon svg {
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.icon-cap svg {
+    margin-right: 5px;
+    margin-top: -3px;
+}

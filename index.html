@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-page">
+            <h1 class="main-heading">Programos</h1>
+            <div class="it-test">
+                <a href="https://www.codeacademy.lt/testas/" class="test-button">
+                    <span class="link-text-wrapper">
+                    <span class="pink-color">Nežinai ką pasirinkti?</span>
+                    <span class="black-color">Spręsk IT testą</span>
+                </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="33"><path fill="#1200FF" d="M3.264 32.528L.76 30.026l13.761-13.761L.762 2.504 3.263 0l16.263 16.264z" fill-rule="evenodd"/></svg>
+                </a>
+            </div>
+
+            <div class="turinys">
+                <div class="filter-wrapper">
+                    <h2 class="filter-heading">Rastos 47 programos</h2>
+                    <div class="theme-wrapper">
+                        <label for="theme" class="filter-title">Tema</label>
+                        <select name="theme" id="theme" class="options">
+                            <option value="visos">Visos</option>
+                            <option value="testavimas">Testavimas</option>
+                            <option value="programavimas">Programavimas</option>
+                            <option value="dizainas">Dizainas</option>
+                            <option value="duomenys">Duomenys</option>
+                            <option value="rinkodara">Rinkodara</option>
+                        </select>
+                    </div>
+
+                    <div class="location-wrapper">
+                        <label for="location" class="filter-title">Vieta</label>
+                        <select name="location" id="location" class="options">
+                            <option value="visos">Visos</option>
+                            <option value="online">Online</option>
+                            <option value="vilnius">Vilnius</option>
+                            <option value="kaunas">Kaunas</option>
+                            <option value="Klaipėda">Klaipėda</option>
+                        </select>
+                    </div>
+
+                    <div class="type-wrapper">
+                        <label for="type" class="filter-title">Tipas</label>
+                        <select name="type" id="type" class="options">
+                            <option value="visi">Visi</option>
+                            <option value="courses-in-english">Courses in english</option>
+                            <option value="pradedanciu-kursai">Pradedančių kursai</option>
+                            <option value="pazengusiu-studijos">Pažengusių studijos</option>
+                            <option value="1-2-lygis">1 + 2 lygis</option>
+                        </select>
+                    </div>
+
+                    <div class="time-wrapper">
+                        <fieldset>
+                            <legend class="time" class="filter-title">Laikas</legend>
+                            <div class="day">
+                                <input type="checkbox" name="dienomis" id="dienomis">
+                                <label for="dienomis">Dienomis</label>
+                            </div>
+                            <div class="evening">
+                                <input type="checkbox" name="vakarais" id="vakarais">
+                                <label for="vakarais">Vakarais</label>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <button class="clear">Išvalyti</button>
+                </div>
+
+                <div class="programme-wrapper">
+
+                    <a href="https://codeacademy.lt/programavimo-kursai/salesforce-crm-pradedanciu/" class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status short">Naujas</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads/2022/08/Black-18.svg" alt="logo">
+                                </div>
+                                <h3 class="programme-title">"Salesforce" CRM - pradedančių</h3>
+                                <span class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Tenetur
+                                    molestiae voluptas rem nam nulla, velit vitae, at suscipit nemo quisquam ullam
+                                    aliquid
+                                    debitis saepe doloribus aliquam modi, aspernatur fuga quo!</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="https://codeacademy.lt/programavimo-kursai/python-pradedantiesiems-uzimtiems-asmenims/"
+                        class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status long">Finansuojama UŽT</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads//2021/03/Python_dark-1.svg"
+                                        alt="logo">
+                                </div>
+                                <h3 class="programme-title">Python - pradedantiems užimtiems asmenims</h3>
+                                <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Dolores rerum adipisci cupiditate dignissimos? Expedita reprehenderit voluptatum
+                                    quos illum exercitationem accusantium repellendus? Accusantium, aspernatur
+                                    reiciendis eligendi, ad asperiores debitis consequatur consectetur explicabo alias
+                                    quo, velit molestiae quia. Amet minus perferendis rem quidem at nobis labore eos
+                                    incidunt obcaecati. Quo commodi odio praesentium omnis nemo, quas consequuntur culpa
+                                    optio minima repudiandae accusamus?</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codeacademy.lt/programavimo-kursai/salesforce-crm-pradedanciu/" class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status short">Naujas</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads/2022/08/Black-18.svg" alt="logo">
+                                </div>
+                                <h3 class="programme-title">"Salesforce" CRM - pradedančių</h3>
+                                <span class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Tenetur
+                                    molestiae voluptas rem nam nulla, velit vitae, at suscipit nemo quisquam ullam
+                                    aliquid
+                                    debitis saepe doloribus aliquam modi, aspernatur fuga quo!</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="https://codeacademy.lt/programavimo-kursai/python-pradedantiesiems-uzimtiems-asmenims/"
+                        class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status long">Finansuojama UŽT</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads//2021/03/Python_dark-1.svg"
+                                        alt="logo">
+                                </div>
+                                <h3 class="programme-title">Python - pradedantiems užimtiems asmenims</h3>
+                                <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Dolores rerum adipisci cupiditate dignissimos? Expedita reprehenderit voluptatum
+                                    quos illum exercitationem accusantium repellendus? Accusantium, aspernatur
+                                    reiciendis eligendi, ad asperiores debitis consequatur consectetur explicabo alias
+                                    quo, velit molestiae quia. Amet minus perferendis rem quidem at nobis labore eos
+                                    incidunt obcaecati. Quo commodi odio praesentium omnis nemo, quas consequuntur culpa
+                                    optio minima repudiandae accusamus?</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    
+                    <a href="https://codeacademy.lt/programavimo-kursai/salesforce-crm-pradedanciu/" class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status short">Naujas</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads/2022/08/Black-18.svg" alt="logo">
+                                </div>
+                                <h3 class="programme-title">"Salesforce" CRM - pradedančių</h3>
+                                <span class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Tenetur
+                                    molestiae voluptas rem nam nulla, velit vitae, at suscipit nemo quisquam ullam
+                                    aliquid
+                                    debitis saepe doloribus aliquam modi, aspernatur fuga quo!</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="https://codeacademy.lt/programavimo-kursai/python-pradedantiesiems-uzimtiems-asmenims/"
+                        class="course">
+                        <div class="programme">
+                            <div class="main-info">
+                                <div class="status long">Finansuojama UŽT</div>
+                                <div class="logo-wrapper">
+                                    <img class="logo"
+                                        src="https://codeacademy.lt/wp-content/uploads//2021/03/Python_dark-1.svg"
+                                        alt="logo">
+                                </div>
+                                <h3 class="programme-title">Python - pradedantiems užimtiems asmenims</h3>
+                                <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Dolores rerum adipisci cupiditate dignissimos? Expedita reprehenderit voluptatum
+                                    quos illum exercitationem accusantium repellendus? Accusantium, aspernatur
+                                    reiciendis eligendi, ad asperiores debitis consequatur consectetur explicabo alias
+                                    quo, velit molestiae quia. Amet minus perferendis rem quidem at nobis labore eos
+                                    incidunt obcaecati. Quo commodi odio praesentium omnis nemo, quas consequuntur culpa
+                                    optio minima repudiandae accusamus?</span>
+                            </div>
+                            <div class="additional-info">
+                                <div class="icon-cap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><g fill-rule="evenodd"><path d="M13.053 10.127l.001 4.866h-10v-4.866l5 2.172 5-2.172z"/><path d="M.983 8l7.071-3.072L15.125 8l-7.071 3.07z"/></g></svg>
+                                    <div>1 lygis</div>
+                                </div>
+                                <div class="icon-moon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10"><path d="M5.054-.007c.911 0 1.766.244 2.501.67a4.998 4.998 0 00-.002 8.661 5 5 0 11-2.5-9.33z" fill-rule="evenodd"/></svg>
+                                    <div>Vakarais</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
